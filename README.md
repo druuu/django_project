@@ -1,7 +1,9 @@
 Role Name
 ========
 
-Initialize Django Project.
+Initialize the server and create a Django Project.
+
+Additionally installs uwsgi and supervisord for process management.
 
 Requirements
 ------------
