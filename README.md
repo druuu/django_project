@@ -11,7 +11,10 @@ Python2, virtualenv
 Role Variables
 --------------
 
-project_name: {{project_name}}
+vassals_dir: /etc/uwsgi/vassals  
+supervisor_conf_dir: /etc/supervisor/conf.d  
+project_name: {{project_name}}  
+
 
 
 Example Playbook
@@ -21,7 +24,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: django-servers
       roles:
-         - { role: django_project }
+         - { role: django_project, project_name: 'your_project_name' }
 
 License
 -------

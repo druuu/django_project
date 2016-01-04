@@ -1,2 +1,4 @@
 ---
-# vars file for install-django
+# vars file for django-server-config
+vassals_dir: /etc/uwsgi/vassals
+supervisor_conf_dir: /etc/supervisor/conf.d
